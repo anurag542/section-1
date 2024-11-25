@@ -15,7 +15,12 @@
             font-family: Roboto;
         }
 
-        .hero-section {}
+        .hero-section {
+            background-image: linear-gradient(0deg, #000000cb, #000000bc), url(https://i.pinimg.com/originals/ce/7f/55/ce7f55d0ce9ec88c238f4f0f5731d809.jpg);
+            color: white;
+            text-align: center;
+        }
+
 
         .content {
 
@@ -30,6 +35,89 @@
 
             height: 70vh;
 
+        }
+
+        .hero-section {
+            font-size: 40px;
+        }
+
+        .hero-subtitle {
+            font-size: 20px;
+
+        }
+
+        .hero-btn {
+            padding: 15px 25px;
+            background-color: blueviolet;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            /* font-size: 1.1em; */
+            margin-top: 40px;
+        }
+
+        body {
+            margin: 0;
+
+        }
+
+        .card {
+            border: 1px solid red;
+            border-radius: 5px;
+            box-shadow: 3px 3px 5px black;
+
+        }
+
+        .card:hover {
+            transform: translate(-20px);
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 5px 5px 0 0;
+        }
+
+
+        .card-body {
+            padding: 30px;
+        }
+
+        .card-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 30px;
+
+            width: 80%;
+            margin: 50px auto;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: 3fr 1fr;
+
+            width: 80%;
+            margin: 0 auto;
+
+        }
+
+        footer {
+            padding: 40px 0;
+            background-color: rgb(21, 240, 240);
+            color: white;
+
+        }
+
+        .website-links {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            gap: 10px;
+
+        }
+
+        .website-links a {
+            color: white;
+            text-decoration: none;
         }
     </style>
 
@@ -61,11 +149,86 @@
 
             </section>
 
+            <section class="Feature-section">
+                <div class="card-container">
+                    <div class="card">
+                        <img src="https://img.freepik.com/free-vector/features-overview-concept-illustration_114360-1500.jpg"
+                            alt="Features" alt="">
+                        <div class="card-body">
+                            <h3 class="card-tittle">Feature 1</h3>
+                            <p class="card-description">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore consectetur cumque
+                                natus iure vero ducimus, animi excepturi sed aliquam! Quas, beatae. Iure, necessitatibus
+                                assumenda. Quidem distinctio voluptatibus voluptates soluta tenetur?
+                            </p>
+                            <button class="card-btn">Learn More</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="https://img.freepik.com/free-vector/features-overview-concept-illustration_114360-1500.jpg"
+                            alt="Features" alt="">
+                        <div class="card-body">
+                            <h3 class="card-tittle">Feature 1</h3>
+                            <p class="card-description">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore consectetur cumque
+                                natus iure vero ducimus, animi excepturi sed aliquam! Quas, beatae. Iure, necessitatibus
+                                assumenda. Quidem distinctio voluptatibus voluptates soluta tenetur?
+                            </p>
+                            <button class="card-btn">Learn More</button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="https://img.freepik.com/free-vector/features-overview-concept-illustration_114360-1500.jpg"
+                            alt="Features" alt="">
+                        <div class="card-body">
+                            <h3 class="card-tittle">Feature 1</h3>
+                            <p class="card-description">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore consectetur cumque
+                                natus iure vero ducimus, animi excepturi sed aliquam! Quas, beatae. Iure, necessitatibus
+                                assumenda. Quidem distinctio voluptatibus voluptates soluta tenetur?
+                            </p>
+                            <button class="card-btn">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            </section>
+
 
 
         </article>
 
     </main>
+
+
+    <footer>
+
+        <div class="footer-content">
+
+            <div>
+                <h3>Company Name</h3>
+                <p>All Right Reserved &copy ; 2024</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipsicing elit. Quisquam, quos</p>
+            </div>
+
+
+            <div class="website-links">
+
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">contact us</a>
+                <a href="#">Career with us</a>
+            </div>
+        </div>
+
+
+
+
+
+    </footer>
 
 
 
