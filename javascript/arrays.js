@@ -36,3 +36,37 @@ console.log(movies);
 
 movies.splice(2,0,'Dangal','PK','3Idiots');
 console.log(movies);
+
+
+const fruits =['Apple', 'Banana','Cherry','Date','Berry', 'Mango','Orange'];
+
+
+//Add 'Grapes' to the end of the array.
+ fruits push('graphs');
+
+
+//Remove 'Banana' from the array.
+
+
+//Replace 'cherry' with 'pineapple' using splice.
+
+
+//Add 'Fig' and 'kiwi' after 'Date' using splice.
+
+
+
+//Slice the array to get the three fruits after 'Banana'.
+
+
+
+
+
+
+//Add 'watermelon' at index 0.
+
+//Slice the array to only contain the fruits at index 3 and fruits at positions 5.
+
+
+//Remove elements from the array starting from index 2 to 5.
+fruits.unshift('Cherry', 'Date',);
+
