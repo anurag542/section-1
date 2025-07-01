@@ -28,3 +28,4 @@ arr1.forEach ((n) => {
 });
 
 console.log(newarr);
+ 
